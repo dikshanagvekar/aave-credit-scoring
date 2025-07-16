@@ -1,0 +1,22 @@
+# Ignore virtual environments
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Output files
+*.zip
+*.log
+
+# Large data or images (handled manually or in Drive)
+data/user_transactions.json
+data/wallet_scores.csv
+assets/score_distribution.png
